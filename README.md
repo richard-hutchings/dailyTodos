@@ -1,3 +1,6 @@
+React Desktop Todo App with Clock and Pomodoro Timer
+created by Richard Hutchings jan2020
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
