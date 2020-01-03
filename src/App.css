@@ -1,0 +1,50 @@
+.app {
+  background-image: url("images\vineyard.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-columns: 3%, 47%, 3%, 47%;
+  grid-template-rows: 1fr, auto, 1fr, auto;
+  height: 100vh;
+}
+
+.todo-container {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  font-size: 18px; 
+  font-weight: bold;
+  border-radius: 10px;
+  align-items: left;
+  
+}
+
+
+.new-todo {
+  height: 40px;
+  width: 320px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px; 
+}
+
+.clock {
+  grid-column: 4/4;
+  grid-row: 2/2;
+  color: black;
+  font-weight: bolder;
+  margin: auto;
+ /* margin-top: 40px;
+  margin-left: 200px; */
+}
+
+.timer {
+  grid-column: 4/4;
+  grid-row: 4/4;
+ 
+}
+
+.todo-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
